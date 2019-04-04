@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="5323" started-at="2019-04-04T07:45:54Z" finished-at="2019-04-04T07:46:00Z">
+    <groups>
+    </groups>
+    <test name="SlackApiTest" duration-ms="5323" started-at="2019-04-04T07:45:54Z" finished-at="2019-04-04T07:46:00Z">
+      <class name="com.plivo.SlackApiTest.SlackListingChannel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.plivo.SlackApiTest.SlackListingChannel@3ffc5af1]" name="setup" is-config="true" duration-ms="406" started-at="2019-04-04T07:45:54Z" finished-at="2019-04-04T07:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="archiveChannel(java.lang.String)[pri:0, instance:com.plivo.SlackApiTest.SlackListingChannel@3ffc5af1]" name="archiveChannel" duration-ms="1783" started-at="2019-04-04T07:45:55Z" finished-at="2019-04-04T07:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHP9NBC9L]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archiveChannel -->
+        <test-method status="PASS" signature="joinChannel(java.lang.String)[pri:0, instance:com.plivo.SlackApiTest.SlackListingChannel@3ffc5af1]" name="joinChannel" duration-ms="830" started-at="2019-04-04T07:45:57Z" finished-at="2019-04-04T07:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bishwas_Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinChannel -->
+        <test-method status="PASS" signature="renameChannel(java.lang.String, java.lang.String)[pri:0, instance:com.plivo.SlackApiTest.SlackListingChannel@3ffc5af1]" name="renameChannel" duration-ms="1578" started-at="2019-04-04T07:45:57Z" finished-at="2019-04-04T07:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[modified]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bishwas_Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renameChannel -->
+        <test-method status="PASS" signature="verifyArchieve(java.lang.String)[pri:0, instance:com.plivo.SlackApiTest.SlackListingChannel@3ffc5af1]" name="verifyArchieve" duration-ms="677" started-at="2019-04-04T07:45:59Z" finished-at="2019-04-04T07:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHP9NBC9L]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArchieve -->
+      </class> <!-- com.plivo.SlackApiTest.SlackListingChannel -->
+    </test> <!-- SlackApiTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

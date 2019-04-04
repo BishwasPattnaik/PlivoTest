@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <parameter name="channelID" value="CHP9NBC9L"/>
+  <test thread-count="3" name="SlackApiTest(failed)">
+    <classes>
+      <class name="com.plivo.SlackApiTest.SlackListingChannel">
+        <methods>
+          <include name="channelInfo" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.plivo.SlackApiTest.SlackListingChannel -->
+    </classes>
+  </test> <!-- SlackApiTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

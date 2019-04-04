@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3">
+  <parameter name="channelIDToCheckArchieve" value="CHP9NBC9L" />
+  <parameter name="ChannelTORename" value="modified" />
+  <parameter name="newChannelName" value="newtestrun" />
+  <parameter name="newChannelName" value="Bishwas_Test1234" />
+  <parameter name="channelNameToJoin" value="Bishwas_Test1234" />
+  <test name="SlackApiTest">
+    <classes>
+      <class name="com.plivo.SlackApiTest.SlackApiTest">
+      </class>
+    </classes>
+  </test>
+</suite>
